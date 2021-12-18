@@ -1,0 +1,3 @@
+name: PortalControl
+version: '1.0'
+main: it.chocodev.portalcontrol.PortalControlImpl
