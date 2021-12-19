@@ -28,6 +28,16 @@ public class PlayerManagerImpl implements PlayerManager{
         return false;
     }
 
+    @Override
+    public String getEndRequirement() {
+        return endRequirement;
+    }
+
+    @Override
+    public String getNetherRequirement() {
+        return netherRequirement;
+    }
+
     private boolean hasAchievement(Player player, String achievement) {
         AtomicBoolean atomicBoolean = new AtomicBoolean(false);
         Bukkit.advancementIterator().forEachRemaining(advancement -> {

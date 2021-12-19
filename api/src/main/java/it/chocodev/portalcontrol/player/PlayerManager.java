@@ -12,4 +12,6 @@ public interface PlayerManager {
      */
     public boolean hasAccess(Player player, AccessType accessType);
 
+    String getNetherRequirement();
+    String getEndRequirement();
 }
